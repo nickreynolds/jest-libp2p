@@ -1,6 +1,6 @@
-// import { createLibp2p } from "libp2p"
-import something from "../src/something"
-test('setup libp2p', async () => {
-    const node = await something()
+import failing from "../src/failing"
+
+test('setup libp2p - this fails', async () => {
+    const node = await failing()
     console.log("node: ", node)
 })
