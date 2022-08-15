@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "author": "nickreynolds",
   "license": "ISC",
@@ -16,5 +17,6 @@
   },
   "dependencies": {
     "libp2p": "^0.37.3"
-  }
+  },
+  "type": "module"
 }

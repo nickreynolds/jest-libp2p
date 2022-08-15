@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "downlevelIteration": true,
+      "declarationMap": true,
+      "declaration": true,
+      "composite": true,
+      "emitDecoratorMetadata": true,
+      "useUnknownInCatchVariables": false,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "outDir": "build"
+    },
+    "exclude": [
+      "**/tests/**/*",
+      "**/build/**/*"
+    ],
+    "include": [
+      "src/**/*"
+    ]
+  }
+  
