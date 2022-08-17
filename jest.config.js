@@ -12,4 +12,12 @@ export default {
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
   },
+  "rootDir": "./",
+  "roots": [
+    "<rootDir>",
+  ],
+  "modulePaths": [
+    "<rootDir>",
+  ],
+  moduleDirectories: ['node_modules'],
 };
