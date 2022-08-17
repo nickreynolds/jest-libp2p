@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "aegir clean",
-    "test": "mocha ./src/**/*.spec.ts",
+    "test": "jest",
     "build": "tsc --build"
   },
   "author": "nickreynolds",
@@ -14,13 +14,10 @@
     "@achingbrain/nat-port-mapper": "^1.0.7",
     "@nickreynolds2/nat-port-mapper": "^1.0.3",
     "@types/jest": "^28.1.7",
-    "@types/mocha": "^9.1.1",
     "@types/uuid": "^8.3.4",
     "aegir": "^37.5.1",
     "jest": "^28.1.3",
-    "mocha": "^10.0.0",
     "ts-jest": "^28.0.8",
-    "ts-mocha": "^10.0.0",
     "typescript": "^4.7.4"
   },
   "dependencies": {
